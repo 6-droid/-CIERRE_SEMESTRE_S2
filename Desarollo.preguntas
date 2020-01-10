@@ -1,0 +1,19 @@
+
+1)ejemplos = sample(c("positivo", "negativo", "neutros"), 100, replace = TRUE)
+> sum(ejemplos == "neutros")
+[1] 33
+> sum(ejemplos == "positivo")
+[1] 30
+> sum(ejemplos == "negativo")
+[1] 37
+2)
+> set.seed(10)
+> ejemplos = sample(c("positivo", "negativo", "neutros"), 100, replace = TRUE)
+> sum(ejemplos == "neutros")
+[1] 33
+> sum(ejemplos == "positivo")
+[1] 29
+> sum(ejemplos == "negativo")
+[1] 38
+> 
+
