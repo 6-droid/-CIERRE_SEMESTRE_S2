@@ -6,6 +6,7 @@
 [1] 30
 > sum(ejemplos == "negativo")
 [1] 37
+
 2)
 > set.seed(10)
 > ejemplos = sample(c("positivo", "negativo", "neutros"), 100, replace = TRUE)
@@ -15,5 +16,17 @@
 [1] 29
 > sum(ejemplos == "negativo")
 [1] 38
+
+3)
+> .seed(66)
+> ejemplos = sample(c("positivo", "negativo", "neutros"), 100, replace = TRUE)
+> length (ejemplos)
+[1] 100
+> sum(ejemplos == "negativo")
+[1] 27
+> sum(ejemplos == "positivo")
+[1] 35
+> sum(ejemplos == "neutro")
+[1] 0
 > 
 
